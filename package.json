@@ -8,10 +8,8 @@
     "parcel": "^1.12.4"
   },
   "scripts": {
-		"test": "echo ./js/editor.js",
-		"deploy": "gh-pages -d dist",
-    "dev": "parcel serve index.html",
-    "prod": "parcel build index.html"
+		"deploy": "parcel build index.html && gh-pages -d dist",
+		"dev": "parcel serve index.html"
 	},
 	"homepage": "https://taolaolatao.github.io/demo",
   "keywords": [],
