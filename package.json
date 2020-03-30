@@ -1,0 +1,28 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "devDependencies": {
+    "@editorjs/editorjs": "^2.17.0",
+    "parcel": "^1.12.4"
+  },
+  "scripts": {
+		"test": "echo ./js/editor.js",
+		"deploy": "gh-pages -d dist",
+    "dev": "parcel serve index.html",
+    "prod": "parcel build index.html"
+	},
+	"homepage": "https://taolaolatao.github.io/demo",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@editorjs/code": "^2.4.1",
+    "@editorjs/embed": "^2.2.1",
+    "@editorjs/header": "^2.4.0",
+    "@editorjs/list": "^1.4.0",
+    "@editorjs/simple-image": "^1.3.3",
+    "gh-pages": "^2.2.0"
+  }
+}
